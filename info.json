@@ -1,11 +1,14 @@
 {
-  "name": "_Template",
+  "name": "blukubeine-spent-result",
   "version": "0.0.1",
-  "title": "Template",
-  "description": "",
-  "author": "",
-  "contact": "",
+  "title": "Blukubeine Spent Result",
+  "description": "Tiny mod that adds a spent result to Blukubeine (Lily's Cubeine Technologies)",
+  "author": "dadobug1111",
   "factorio_version": "2.0",
-  "space_travel_required": false,
-  "dependencies": ["base >= 2.0.72"]
+  "space_travel_required": true,
+  "dependencies": [
+    "base >= 2.0.72",
+    "cubium",
+    "lilys-cubeine",
+  ]
 }
